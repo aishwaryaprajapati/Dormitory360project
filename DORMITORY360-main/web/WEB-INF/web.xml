@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>GenerateOtp</servlet-name>
+        <servlet-class>GenerateOtp</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Sheet1</servlet-name>
+        <servlet-class>Sheet1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>OtpGen</servlet-name>
+        <servlet-class>OtpGen</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GenerateOtp</servlet-name>
+        <url-pattern>/GenerateOtp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Sheet1</servlet-name>
+        <url-pattern>/Sheet1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OtpGen</servlet-name>
+        <url-pattern>/OtpGen</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

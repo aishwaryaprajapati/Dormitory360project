@@ -1,0 +1,89 @@
+
+.mymenu
+{
+       
+       top:0;
+       left:0;
+     height:50px;
+       width:100%;
+       background-color: white;
+	color:white;
+	text-align:center;
+       
+}
+.mymenu li{
+    display:inline-block;
+    padding:14px 20px;
+    color:black;
+    
+}
+
+.mymenu li:hover{
+    background:#ddd;
+    color:black;
+    
+}
+
+#ABC
+{
+	backgrond-color:rgba(0,0,0,0.5);
+	color:white;
+	
+}
+
+
+#data
+{
+	margin-top:50px;
+	color:pink;
+	font-size:20px;
+        text-align: bottom;
+}
+#data1
+{ 
+    text-align: bottom;
+  color:black;
+font-size:20px;
+}
+
+table
+{
+	color:white;
+	background-color:rgba(0,0,0,0.5);
+	box-shadow:20px 20px 20px black;
+}
+
+.t1
+{
+	border-radius:20px;
+}
+
+.B
+{
+	width:80px;
+	height:30px;
+    background:linear-gradient(red,blue);
+	color:white;
+        border-radius: 25px;
+}
+
+.B:hover
+{
+	background:linear-gradient(to right,blue,green);
+}
+
+.A
+{
+	background:linear-gradient(green,red);
+	border-radius:30px;
+	box-shadow:4px 4px 4px white;
+}
+.C
+{
+	background:linear-gradient(green,yellow);
+	border-radius:30px;
+	box-shadow:4px 4px 4px white;
+	margin-top:350px;
+	margin-left:10px;
+	
+}
